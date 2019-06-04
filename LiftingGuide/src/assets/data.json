@@ -1,0 +1,106 @@
+[
+    {
+        "bodyHalf": "Upper",
+        "exerciseType": "Compound",
+        "name": "Standing Overhead Dummbell Press",
+        "sets": 1,
+        "reps": 10,
+        "primaryMuscles": [
+            "Anterior Delts"
+        ],
+        "secondaryMuscles": [
+            "Triceps"
+        ],
+        "notes": [
+            "This is a warmup exercise. Use light weights (5, 10, 15lbs), and focus on form, using <b>one arm at a time</b>",
+            "Dumbbells should come down to your ears, with your elbows pointed down -- all the way to bringing your bicep to your ear. Focus on form",
+            "Bring the dumbbells down, breath in. Push up, breath out. It may be helpful to cross your opposite arm against your chest"
+        ],
+        "imageUrl": "\\assets\\images\\exercises\\standing_onearm_dumbbell_overhead_press.png",
+        "exampleUrlPrimary": "https://weighttraining.guide/exercises/dumbbell-one-arm-overhead-press/"
+    },
+    {
+        "bodyHalf": "Upper",
+        "exerciseType": "Isolated",
+        "name": "Dumbbell Front Raise",
+        "sets": 1,
+        "reps": 10,
+        "primaryMuscles": [ 
+            "Anterior Deltoid"
+        ],
+        "notes": [
+            "This is a warmup exercise. Use light weights (5, 10, 15lbs), and focus on form, using <b>one arm at a time</b>",
+            "Stand with your feed shoulder-width apart, toes pointed forward",
+            "Do not swing the dumbbell back and forth -- the dumbbell should come to a complete stop on <b>both</b> the upswing and downswing",
+            "Exhale when you push the dumbbell forward and up -- breath in bringing it down. Try and bring it down <i>slowly</i>"
+        ],
+        "imageUrl": "\\assets\\images\\exercises\\dumbbell_front_raise.png",
+        "exampleUrlPrimary": "https://weighttraining.guide/exercises/alternating-dumbbell-front-raise/"
+    },
+    {
+        "bodyHalf": "Upper",
+        "exerciseType": "Isolated",
+        "name": "Dumbbell Lateral Raise",
+        "sets": 1,
+        "reps": 10,
+        "primaryMuscles": [
+            "Lateral Deltoid"
+        ],
+        "notes": [
+            "This is a warmup exercise. Use light weights (5, 10, 15lbs), and focus on form, using <b>one arm at a time</b>",
+            "Stand with your feed shoulder-width apart, toes pointed forward",
+            "Do not swing the dumbbell back and forth -- the dumbbell should come to a complete stop on <b>both</b> the upswing and downswing",
+            "Exhale when you push the dumbbell to the side and up -- breath in bringing it down. Try and bring it down <i>slowly</i>"
+        ],
+        "imageUrl": "\\assets\\images\\exercises\\dumbbell_lateral_raise.png",
+        "exampleUrlPrimary": "https://weighttraining.guide/exercises/dumbbell-one-arm-lateral-raise/"
+    },
+    {
+        "bodyHalf": "Lower",
+        "exerciseType": "Compound",
+        "name": "Dumbbell Lunge",
+        "sets": 1,
+        "reps": 10,
+        "primaryMuscles": [
+            "Glutes",
+            "Quads"
+        ],
+        "secondaryMuscles": [
+            "Adductors",
+            "Soleus"
+        ],
+        "notes": [
+            "Do the listed number of reps per-leg",
+            "This is a warmup exercise. Use light weights (5, 10, 15lbs), and focus on form, using <b>one arm at a time</b>",
+            "Keep the dumbbells to your side, stand with your feet shoulder-width apart, toes pointing forward",
+            "Take a long step and bend with your rear knee -- both your front and rear knees should form a 90-degree (right) angle",
+            "When pushing up, <b>focus on using the mid-back of your feet</b> to push yourself up",
+            "Inhale while bending, and exhale when standing"
+        ],
+        "imageUrl": "\\assets\\images\\exercises\\dumbbell_lunge.png",
+        "exampleUrlPrimary": "https://weighttraining.guide/exercises/dumbbell-lunge/"
+    },
+    {
+        "bodyHalf": "Lower",
+        "exerciseType": "Compound",
+        "name": "Dumbbell/Kettlebell Sumo Squat",
+        "sets": 4,
+        "reps": 10,
+        "primaryMuscles": [
+            "Glutes",
+            "Quads"
+        ],
+        "secondaryMuscles": [
+            "Adductors",
+            "Soleus"
+        ],
+        "notes": [
+            "Hold the weight slightly below chest level",
+            "Legs should be a little wider than shoulder width, pointed slightly outward",
+            "When pushing up, <b>focus on using the mid-back of your feet</b> to push yourself up. You shouldn't fall, <b>but if you do</b>, try to fall backwards",
+            "Inhale while bending, and exhale when pushing up to stand"
+        ],
+        "imageUrl": "\\assets\\images\\exercises\\dumbbell_sumo_squat.png",
+        "exampleUrlPrimary": "https://weighttraining.guide/exercises/dumbbell-sumo-squat/"
+    }
+]

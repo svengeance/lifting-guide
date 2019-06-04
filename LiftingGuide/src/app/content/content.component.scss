@@ -1,0 +1,41 @@
+.grid-container {
+  padding: 20px;
+}
+
+.card {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+}
+
+.card-image {
+  cursor: pointer;
+  float: left;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  width: 120px;
+}
+
+.more-button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.card-content > p {
+  line-height: 1;
+  margin: 6px 2px;
+  text-align: justify;
+}
+
+mat-card-footer {
+  bottom: 24px;
+  left: 24px;
+  position: absolute;
+
+  > p {
+    margin: 0;
+  }
+}

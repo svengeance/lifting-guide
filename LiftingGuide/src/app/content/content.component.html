@@ -1,0 +1,32 @@
+<div class="grid-container mat-app-background">
+  <mat-grid-list [cols]="numColumns" [rowHeight]="columnHeight" #grid>
+    <mat-grid-tile *ngFor="let exercise of exercises$ | async" [colspan]="1" [rowspan]="1">
+      <mat-card class="card">
+        <mat-card-header>
+          <mat-card-title>
+            {{exercise.name}} -- {{exercise.sets}}x{{exercise.reps}} Reps
+            <button mat-icon-button class="more-button" [matMenuTriggerFor]="menu" aria-label="Toggle menu">
+              <mat-icon>more_vert</mat-icon>
+            </button>
+            <mat-menu #menu="matMenu" xPosition="before">
+              <a *ngIf="exercise.exampleUrlPrimary" target="_blank" [href]="exercise.exampleUrlPrimary">More Information</a>
+              <a *ngIf="exercise.exampleUrlSecondary" target="_blank" [href]="exercise.exampleUrlSecondary">Still More Information</a>
+            </mat-menu>
+          </mat-card-title>
+          <mat-card-subtitle>
+            {{exercise.bodyHalf}}, {{exercise.exerciseType}}
+          </mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content class="card-content">
+          <img [src]="exercise.imageUrl" class="card-image" (click)="openImage(exercise.imageUrl)"/>
+          <p *ngFor="let note of exercise.notes" [innerHTML]="note"></p>
+          <div class="card-footer"></div>
+        </mat-card-content>
+        <mat-card-footer>
+          <p class="mat-small">Primary Muscles: {{exercise.primaryMuscles.join(', ')}}</p>
+          <p class="mat-small">Secondary Muscles: {{exercise?.secondaryMuscles?.join(', ') || 'None'}}</p>
+        </mat-card-footer>
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
