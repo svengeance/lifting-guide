@@ -1,7 +1,7 @@
 import { AppStateService } from './../services/app-state.service';
 import { Exercise } from './../models/exercise';
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { map, switchMap, tap } from 'rxjs/operators';
+import { map, switchMap, tap, skip } from 'rxjs/operators';
 import { Breakpoints, BreakpointObserver } from '@angular/cdk/layout';
 import { DataService } from '../services/data.service';
 import { Observable, Subject, BehaviorSubject } from 'rxjs';
@@ -25,7 +25,7 @@ export class ContentComponent implements OnInit {
   }
 
   get columnHeight(): number {
-    return this.breakpointObserver.isMatched(Breakpoints.Handset) ? 400 : 350;
+    return this.breakpointObserver.isMatched(Breakpoints.Handset) ? 450 : 350;
   }
 
   constructor(private breakpointObserver: BreakpointObserver,
@@ -34,10 +34,11 @@ export class ContentComponent implements OnInit {
               // private lightbox: Lightbox
               ) { }
 
-  ngOnInit(): void {
+  ngOnInit(): void {    
     this.dataService.getExercises(this.appState.isUpperBodySelected.getValue()).subscribe(res => this.exercises$.next(res));
-    this.exercises$.subscribe(val => console.log(val));
+    this.exercises$.subscribe(console.log);
     this.appState.isUpperBodySelected.pipe(
+      skip(1),
       switchMap(v => this.dataService.getExercises(v)),
       tap(e => this.exercises$.next(e))
     ).subscribe();  

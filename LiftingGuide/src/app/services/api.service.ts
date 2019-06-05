@@ -9,7 +9,7 @@ export class ApiService {
 
   constructor(private http: HttpClient) { }
 
-  public get<T>(url: string): Observable<T> {
+  public get<T>(url: string): Observable<T> {    
     return this.http.get<T>(url);
   }
 }

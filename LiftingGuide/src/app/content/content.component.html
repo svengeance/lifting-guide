@@ -20,7 +20,6 @@
         <mat-card-content class="card-content">
           <img [src]="exercise.imageUrl" class="card-image" (click)="openImage(exercise.imageUrl)"/>
           <p *ngFor="let note of exercise.notes" [innerHTML]="note"></p>
-          <div class="card-footer"></div>
         </mat-card-content>
         <mat-card-footer>
           <p class="mat-small">Primary Muscles: {{exercise.primaryMuscles.join(', ')}}</p>

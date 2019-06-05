@@ -67,7 +67,7 @@
         ],
         "secondaryMuscles": [
             "Adductors",
-            "Soleus"
+            "Calves"
         ],
         "notes": [
             "Do the listed number of reps per-leg",
@@ -92,7 +92,7 @@
         ],
         "secondaryMuscles": [
             "Adductors",
-            "Soleus"
+            "Calves"
         ],
         "notes": [
             "Hold the weight slightly below chest level",
@@ -102,5 +102,150 @@
         ],
         "imageUrl": "\\assets\\images\\exercises\\dumbbell_sumo_squat.png",
         "exampleUrlPrimary": "https://weighttraining.guide/exercises/dumbbell-sumo-squat/"
+    },
+    {
+        "bodyHalf": "Lower",
+        "exerciseType": "Compound",
+        "name": "Bodyweight Squat",
+        "sets": 1,
+        "reps": 10,
+        "primaryMuscles": [
+            "Glutes",
+            "Quads"
+        ],
+        "secondaryMuscles": [
+            "Adductors",
+            "Calves"
+        ],
+        "notes": [
+            "A kind of warm-down exercise to work on no-weight stability, to practice your own natural balance",
+            "Legs should be a little wider than shoulder width, pointed slightly outward",
+            "When pushing up, <b>focus on using the mid-back of your feet</b> to push yourself up. You shouldn't fall, <b>but if you do</b>, try to fall backwards",
+            "Inhale while bending, and exhale when pushing up to stand"
+        ],
+        "imageUrl": "\\assets\\images\\exercises\\bodyweight_sumo_squat.png",
+        "exampleUrlPrimary": "https://weighttraining.guide/exercises/bodyweight-sumo-squat/"
+    },
+    {
+        "bodyHalf": "Lower",
+        "exerciseType": "Isolation",
+        "name": "Machine Seated Calf Raise",
+        "sets": 3,
+        "reps": 21,
+        "primaryMuscles": [
+            "Calves"
+        ],
+        "notes": [
+            "You will do <b>7 reps</b> apiece - one with a neutral stance (toes pointed up, pressing middle of foot), one with a wide-stance (toes pointed out, pressing with inner foot), and one with a narrow-stance (toes pointed in, pressing with outer foot)",
+            "For the wide-stance, you almost want to push with your big toe, which should be the <i>central</i> point of force. For the narrow-stance, push with your pinky toes",
+            "Feet and legs should be shoulder-width",
+            "Inhale while bending, and exhale when pushing up"
+        ],
+        "imageUrl": "\\assets\\images\\exercises\\seated_calf_raise.png",
+        "exampleUrlPrimary": "https://weighttraining.guide/exercises/seated-calf-raise/"
+    },
+    {
+        "bodyHalf": "Lower",
+        "exerciseType": "Isolation",
+        "name": "Seated Leg Curl",
+        "sets": 4,
+        "reps": 10,
+        "primaryMuscles": [
+            "Hamstrings"
+        ],
+        "notes": [
+            "Do <b>not</b> use your back to assist the curl. Your back should remain straight up",
+            "Legs should be shoulder-width, and the curl pad should come to a rest at the top of your heels (right against your shoe/skin)",
+            "Inhale while curling, exhale when straightening your legs"
+        ],
+        "imageUrl": "\\assets\\images\\exercises\\seated_leg_curl.png",
+        "exampleUrlPrimary": "https://weighttraining.guide/exercises/seated-leg-curl/"
+    },
+    {
+        "bodyHalf": "Lower",
+        "exerciseType": "Isolation - Stretch",
+        "name": "Standing Figure 4",
+        "sets": 2,
+        "reps": 30,
+        "primaryMuscles": [
+            "Piriformis"
+        ],
+        "notes": [
+            "Place your foot [square] on the table, and your other leg shoulder-width next to it (see image). The leg on the flor should have toes pointed forward",
+            "Breath in deep with your back straight, and bend <b>AT THE HIP</b>. Do not look downwards -- look up or straight ahead",
+            "Remember to breath in as you begin, and breath out as you <i>push</i> your stretch further. Do not attempt to go as hard as you can on your first attempt - warm up the stretch"
+        ],
+        "imageUrl": "\\assets\\images\\exercises\\standing_figure_four.jpg",
+        "exampleUrlPrimary": "https://youtu.be/1eONJ4SHMvk?t=13"
+    },
+    {
+        "bodyHalf": "Lower",
+        "exerciseType": "Isolation - Stretch",
+        "name": "Standing Hamstring Stretch",
+        "sets": 2,
+        "reps": 30,
+        "primaryMuscles": [
+            "Hamstrings"
+        ],
+        "notes": [
+            "Place your heel on the box, toe pointed up. Place your other foot toe-facing-forward, both feet should be about shoulder-width apart",
+            "Breath in deep with your back straight, and bend <b>AT THE HIP</b>, with your arms and fingers extended straight up. Bend as far as comfortable can, resting your fingertops on the tips of your feet if possible, or your legs if not",
+            "Remember to breath in as you begin, and breath out as you <i>push</i> your stretch further. Do not attempt to go as hard as you can on your first attempt - warm up the stretch"
+        ],
+        "imageUrl": "\\assets\\images\\exercises\\standing_hamstring_stretch.jpg",
+        "exampleUrlPrimary": "https://www.youtube.com/watch?v=HoNG4hqw5P8"
+    },
+    {
+        "bodyHalf": "Lower",
+        "exerciseType": "Isolation - Stretch",
+        "name": "Outer-Calf Wall Stretch",
+        "sets": 2,
+        "reps": 30,
+        "primaryMuscles": [
+            "Calves"
+        ],
+        "notes": [
+            "Place your feet shoulder-width apart, toes pointed forward, with one leg far behind the other. The front leg should be a few inches away from the wall",
+            "Place your hands flat against the wall for support. You will achieve the stretch from this exercise by bending your back leg further and further down at the heel (remember to keep the back of your foot against the ground!)",
+            "Remember to breath in as you begin, and breath out as you <i>push</i> your stretch further. Do not attempt to go as hard as you can on your first attempt - warm up the stretch"
+        ],
+        "imageUrl": "\\assets\\images\\exercises\\outer_calf_stretch.jpg",
+        "exampleUrlPrimary": "https://youtu.be/V1BIsor93LQ?t=5"
+    },
+    {
+        "bodyHalf": "Lower",
+        "exerciseType": "Isolation - Stretch",
+        "name": "Inner-Calf Wall Stretch",
+        "sets": 2,
+        "reps": 30,
+        "primaryMuscles": [
+            "Calves"
+        ],
+        "notes": [
+            "Place your feet shoulder-width apart. The front foot will have your heel on the ground, and the front of your foot against the wall. Your foot should be a direct 45-degree angle.",
+            "Place your hands flat against the wall for support. You will achieve the stretch from this exercise by bending your front knee forward, which will push your calf further and further into the stretch",
+            "Take this stretch slowly! It is easy to push it too far",
+            "Remember to breath in as you begin, and breath out as you <i>push</i> your stretch further. Do not attempt to go as hard as you can on your first attempt - warm up the stretch"
+        ],
+        "imageUrl": "\\assets\\images\\exercises\\inner_calf_stretch.jpg",
+        "exampleUrlPrimary": "https://youtu.be/f1HzSAuB-Vw?t=2"
+    },
+    {
+        "bodyHalf": "Lower",
+        "exerciseType": "Isolation - Stretch",
+        "name": "Quadriceps Wall Stretch",
+        "sets": 2,
+        "reps": 30,
+        "primaryMuscles": [
+            "Quadriceps"
+        ],
+        "notes": [
+            "Facing away from a wall, place your knee at the corner of the wall/floor, with your leg parallel to the wall. Place your other leg forward and in front of you, similar to a lunghe - it should form a right-angle.",
+            "Using this leg as support, push yourself up. The ideal position is to be able to lay your back against your leg on the wall",
+            "Take this stretch slowly! It is easy to push it too far",
+            "Remember to breath in as you begin, and breath out as you <i>push</i> your stretch further. Do not attempt to go as hard as you can on your first attempt - warm up the stretch"
+        ],
+        "imageUrl": "\\assets\\images\\exercises\\quad-wall-stretch.jpg",
+        "exampleUrlPrimary": "https://www.youtube.com/watch?v=jv6VFn6QDK4"
     }
 ]
